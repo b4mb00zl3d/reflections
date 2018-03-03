@@ -13,3 +13,4 @@ Branches would be helpful in keeping the history organized if there were several
 How do the diagrams help you visualize the branch structure?
 I think this is pretty obvious. The diagrams give an intuitive visual to understand how the branches are connected to each other and to help the developer understand the consequences of making any further changes and/or commits. 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
