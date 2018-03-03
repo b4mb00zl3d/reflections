@@ -14,3 +14,7 @@ How do the diagrams help you visualize the branch structure?
 I think this is pretty obvious. The diagrams give an intuitive visual to understand how the branches are connected to each other and to help the developer understand the consequences of making any further changes and/or commits. 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
+It merges all of the commits togetether into one branch. All the commits are organized by time stamp. We reprsent it in the diagram to visualize that at some point the branch forked and then merged back together. This gives a intuitive visual cue about the version history. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually? 
+Git will automatically merge unless there's an indication that two parts of the of the same file were changed. Because it's unclear on the "ground truth" it prompts the user to decide which code is correct. This is good because it adds a mechanism for the user to verify the code instead of doing it automatically. Obviously, it would be more convenient if Git could do it on its own. Though it my one day in the future, it cannot do it now. 
